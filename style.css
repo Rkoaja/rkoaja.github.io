@@ -1,0 +1,57 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 9;
+}
+
+.jumbotron {
+  padding-top: 2rem;
+  background-color: #eaeaea;
+}
+
+#about {
+  background-color: #273036;
+}
+
+#skills {
+  background-image: url(assets/blob-scatter-haikei.png);
+  background-repeat: repeat;
+}
+
+#skills .container .row span {
+  font-weight: bold;
+}
+
+#contact {
+  background-color: #000b76;
+}
+
+#contact .container .bi {
+  color: #eaeaea;
+  margin-right: 50px;
+}
+
+#contact .map {
+  margin: auto;
+}
+
+#contact svg:hover {
+  transition: 0.3s all ease;
+  color: #0099ff;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  #contact .bi {
+    width: 30px;
+    height: 30px;
+  }
+  #contact .map {
+    width: 75%;
+  }
+}
